@@ -1,0 +1,34 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.course.moritz.items">
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACTION_DIAL" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_app"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_app_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.course.moritz.items.activity.InventoryActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.course.moritz.items.activity.EditorActivity"
+            android:theme="@style/AppTheme"
+            android:parentActivityName="com.course.moritz.items.activity.InventoryActivity" >
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.course.moritz.items.activity.InventoryActivity" />
+        </activity>
+        <provider
+            android:authorities="com.course.moritz.items"
+            android:name="com.course.moritz.items.data.controller.ItemProvider"
+            android:exported="false"/>
+    </application>
+</manifest>

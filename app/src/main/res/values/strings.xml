@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Inventory</string>
+    <string name="label_inventory_activity">Items</string>
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+    <string name="action_delete_all_entries">Delete All Items</string>
+    <string name="editor_activity_title_new_item">Add a new Item</string>
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+    <string name="name">Name</string>
+    <string name="supplier_phone">Supplier Phone</string>
+    <string name="supplier_name">Supplier Name</string>
+    <string name="quantity">0</string>
+    <string name="price">Price</string>
+    <string name="empty_view_title_text">There are currently no items in stock.</string>
+    <string name="empty_view_subtitle_text">Go add some items to the inventory (name, price, quantity, supplier name and phone)</string>
+    <string name="editor_activity_title_edit_item">Edit Item</string>
+    <string name="editor_update_item_failed">There was an error with the update</string>
+    <string name="editor_update_item_successful">The update was successful</string>
+    <string name="unsaved_changes_dialog_msg">Discard changes?</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep Editing</string>
+    <string name="editor_delete_item_successful">Item deleted</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="delete_dialog_msg">Delete Item?</string>
+    <string name="delete_all_dialog_msg">Delete All Items?</string>
+    <string name="btn_sale">Sale</string>
+    <string name="btn_decrease">-</string>
+    <string name="btn_increase">+</string>
+    <string name="action_call_supplier">Call Supplier</string>
+    <string name="value_prompt">Increase/Decrease by</string>
+    <string name="in_stock">In Stock:</string>
+    <string name="quantity_text">Quantity</string>
+</resources>
